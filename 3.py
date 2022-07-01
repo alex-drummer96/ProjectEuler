@@ -27,5 +27,5 @@ for i in range(z, 1, -2):
         d = simple_number(i)
         if d == 1:
             greatest_prime_divisor = i
-            print(greatest_prime_divisor)
             break
+print("ответ:", greatest_prime_divisor)
